@@ -25,5 +25,8 @@ ausgeführt werden. Alle Dateien aus dem Ordner copy_this in den Shop kopieren. I
 aktivieren. Danach den tmp-Ordner mit einem FTP-Programm leeren und die Views updaten (Service -> Tools). 
 Im Admin unter Hersteller gibt es nun einen neuen Reiter namens Langtext.
 
+### Lizenz ###
+MIT License
+
 ### Credits ###
 Die Basis des Moduls liefert das Modul vin ivoba https://github.com/ivoba/OXID-manufacturer-text-mod
