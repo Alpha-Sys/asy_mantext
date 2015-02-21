@@ -35,7 +35,6 @@ $aModule = array(
     'settings' => array(
     ),
     'blocks' => array(
-        array('template' => 'manufacturer_main.tpl', 'block'=>'admin_manufacturer_main_form', 'file'=>'admin_manufacturer_main_form.tpl'),
     ),
     'templates' => array(
         'asy_mantext_main.tpl'  => 'asy/asy_mantext/views/admin/tpl/asy_mantext_main.tpl',
