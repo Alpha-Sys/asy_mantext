@@ -17,7 +17,7 @@ www.alpha-sys.de
 Erweitert die Hersteller um eine Langbeschreibung
 
 ### Installation ###
-F�hren Sie "composer require alphasys/asy_mantext" auf der Konsole aus.
+Führen Sie "composer require alphasys/asy_mantext" auf der Konsole aus.
 
 ### Credits ###
 Die Basis des Moduls liefert das Modul von ivoba https://github.com/ivoba/OXID-manufacturer-text-mod
