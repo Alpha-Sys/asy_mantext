@@ -17,7 +17,7 @@ class asy_mantext_main extends oxAdminDetails {
         $soxId = $this->_aViewData["oxid"] = $this->getEditObjectId();
         if ($soxId != "-1" && isset($soxId)) {
             // load object
-            $iLang = oxConfig::getParameter("catlang");
+            $iLang = oxRegistry::getConfig()->getRequestParameter("catlang");
 
             if (!isset($iLang))
                 $iLang = $this->_iEditLang;
@@ -27,7 +27,7 @@ class asy_mantext_main extends oxAdminDetails {
 
             $o->loadInLang($iLang, $soxId);
 
-            foreach (oxLang::getInstance()->getLanguageNames() as $id => $language) {
+            foreach (oxRegistry::getLang()->getLanguageNames() as $id => $language) {
                 $oLang = new oxStdClass();
                 $oLang->sLangDesc = $language;
                 $oLang->selected = ($id == $this->_iEditLang);
@@ -49,10 +49,10 @@ class asy_mantext_main extends oxAdminDetails {
         $myConfig = $this->getConfig();
 
         $soxId = $this->getEditObjectId();
-        $aParams = oxConfig::getParameter("editval");
+        $aParams = oxRegistry::getConfig()->getRequestParameter("editval");
 
         $o = oxNew("oxmanufacturer");
-        $iLang = oxConfig::getParameter("catlang");
+        $iLang = oxRegistry::getConfig()->getRequestParameter("catlang");
         $iLang = $iLang ? $iLang : 0;
 
         if ($soxId != "-1") {

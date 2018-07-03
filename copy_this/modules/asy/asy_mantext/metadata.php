@@ -11,27 +11,26 @@
 /**
  * Metadata version
  */
-$sMetadataVersion = '1.0';
+$sMetadataVersion = '1.1';
 
 /**
  * Module information
  */
 $aModule = array(
     'id'           => 'asy_mantext',
-    'title'        => 'Hersteller-Beschreibung',
+    'title'        => '<img src="../modules/asy/module_logo.png" alt="Alpha-Sys" title="Alpha-Sys"> Hersteller-Beschreibung',
     'description'  => 'Beschreibung für den Hersteller',
     'thumbnail'    => '',
-    'version'      => '1.2',
+    'version'      => '1.3',
     'author'       => 'Alpha-Sys',
     'sponsor'      => 'Sunlab GmbH',
     'url'          => 'http://www.alpha-sys.de',
     'email'        => 'fabian.kunkler@alpha-sys.de',
 
     'extend'       => array(
-        'manufacturer_main'      => 'asy_mantext/admin/asy_mantext__manufacturer_main',
-        'manufacturerlist'       => 'asy_mantext/views/asy_mantext__manufacturerlist',
-        'oxmanufacturer'         => 'asy_mantext/core/asy_mantext__oxmanufacturer',
-        'oxmanufacturerlist'     => 'asy_mantext/core/asy_mantext__oxmanufacturerlist',
+        'manufacturer_main'      => 'asy/asy_mantext/admin/asy_mantext__manufacturer_main',
+        'manufacturerlist'       => 'asy/asy_mantext/views/asy_mantext__manufacturerlist',
+        'oxmanufacturer'         => 'asy/asy_mantext/models/asy_mantext__oxmanufacturer',
     ),
     'settings' => array(
     ),
@@ -39,10 +38,10 @@ $aModule = array(
         array('template' => 'manufacturer_main.tpl', 'block'=>'admin_manufacturer_main_form', 'file'=>'admin_manufacturer_main_form.tpl'),
     ),
     'templates' => array(
-        'asy_mantext_main.tpl'  => 'asy_mantext/out/admin/tpl/asy_mantext_main.tpl',
+        'asy_mantext_main.tpl'  => 'asy/asy_mantext/out/admin/tpl/asy_mantext_main.tpl',
     ),
-        'files' => array(
-        'asy_mantext_main'      => 'asy_mantext/admin/asy_mantext_main.php',
+    'files' => array(
+        'asy_mantext_main'      => 'asy/asy_mantext/admin/asy_mantext_main.php',
     ),
 
 
