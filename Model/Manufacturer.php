@@ -9,7 +9,7 @@
  * @author      Fabian Kunkler <fabian.kunkler@alpha-sys.de>
  * @copyright   (C) Alpha-Sys 2008-2018
  * @module      asy_mantext
- * @version     03.07.2018 2.0.0
+ * @version     03.07.2018 2.0.1
  */
 
 namespace AlphaSys\AsyManText\Model;
@@ -29,7 +29,7 @@ class Manufacturer extends Manufacturer_parent{
     {
         //preliminar quick check saves 3% of execution time in category lists by avoiding redundant strtolower() call
         if ($sFieldName[2] == 'l' || $sFieldName[2] == 'L' || (isset($sFieldName[16]) && ($sFieldName[16] == 'l' || $sFieldName[16] == 'L') ) ) {
-            if ('extlongdesc' === strtolower($sFieldName) || 'oxmanufacturers__extlongdesc' === strtolower($sFieldName)) {
+            if ('asy_longdesc' === strtolower($sFieldName) || 'oxmanufacturers__asy_longdesc' === strtolower($sFieldName)) {
                 $iDataType = oxField::T_RAW;
             }
         }
@@ -37,13 +37,13 @@ class Manufacturer extends Manufacturer_parent{
     }
     
     /**
-     * assign extlongdesc to oxlongdesc field
+     * assign asy_longdesc to oxlongdesc field
      * @param type $sName
      * @return type 
      */
     public function __get($sName){
         if($sName == 'oxcategories__oxlongdesc'){
-            $this->oxcategories__oxlongdesc = $this->oxmanufacturers__extlongdesc;
+            $this->oxcategories__oxlongdesc = $this->oxmanufacturers__asy_longdesc;
         }
         
         return parent::__get($sName);

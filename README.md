@@ -2,7 +2,7 @@
 asy_mantext
 
 ### Version ###
-2.0.0
+2.0.1
 
 ### Oxid-Version ###
 6.0.x
@@ -17,7 +17,7 @@ www.alpha-sys.de
 Erweitert die Hersteller um eine Langbeschreibung
 
 ### Installation ###
-FŸhren Sie "composer require alphasys/asy_mantext" auf der Konsole aus.
+Fï¿½hren Sie "composer require alphasys/asy_mantext" auf der Konsole aus.
 
 ### Credits ###
 Die Basis des Moduls liefert das Modul von ivoba https://github.com/ivoba/OXID-manufacturer-text-mod

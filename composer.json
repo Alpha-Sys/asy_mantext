@@ -1,10 +1,10 @@
 {
     "name": "alphasys/asy_mantext",
-    "description": "OXID module: Additional description for manufacturer.",
+    "description": "OXID module: Additional description for manufacturer and possibility to configure a default sorting.",
     "type": "oxideshop-module",
     "keywords": ["oxid", "modules", "eShop", "manufacturer", "description"],
     "homepage": "https://www.alpha-sys.de",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "extra": {
         "oxideshop": {
             "target-directory": "asy/asy_mantext"

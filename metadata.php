@@ -9,7 +9,7 @@
  * @author      Fabian Kunkler <fabian.kunkler@alpha-sys.de>
  * @copyright   (C) Alpha-Sys 2008-2018
  * @module      asy_mantext
- * @version     03.07.2018 2.0.0
+ * @version     03.07.2018 2.0.1
  */
 
 /**
@@ -27,7 +27,7 @@ $aModule = array(
         'de' => 'Mit diesem Modul werden die Hersteller um eine Beschreibung erweitert. Desweiteren kann man eine Sortierung einstellen.'
     ),
     'thumbnail'    => 'module_logo.png',
-    'version'      => '2.0.0',
+    'version'      => '2.0.1',
     'author'       => 'Alpha-Sys',
     'email'        => 'fabian.kunkler@alpha-sys.de',
     'url'          => 'http://www.alpha-sys.de',

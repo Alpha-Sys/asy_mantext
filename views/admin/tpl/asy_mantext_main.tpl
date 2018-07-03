@@ -29,7 +29,7 @@
 [{ $editor }]
 
 
-<form name="myedit" id="myedit" action="[{ $oViewConf->getSelfLink() }]" method="post" onSubmit="copyLongDesc( 'oxmanufacturers__extlongdesc' );" style="padding: 0px;margin: 0px;height:0px;">
+<form name="myedit" id="myedit" action="[{ $oViewConf->getSelfLink() }]" method="post" onSubmit="copyLongDesc( 'oxmanufacturers__asy_longdesc' );" style="padding: 0px;margin: 0px;height:0px;">
     [{ $oViewConf->getHiddenSid() }]
     <input type="hidden" name="cl" value="asy_mantext_main">
     <input type="hidden" name="fnc" value="">
@@ -37,7 +37,7 @@
     <input type="hidden" name="voxid" value="[{ $oxid }]">
     <input type="hidden" name="editval[oxmanufacturers__oxid]" value="[{ $oxid }]">
     <input type="hidden" name="catlang" value="[{$catlang}]">
-    <input type="hidden" name="editval[oxmanufacturers__extlongdesc]" value="">
+    <input type="hidden" name="editval[oxmanufacturers__asy_longdesc]" value="">
     <table>
         <tr>
             <td valign="top" class="edittext">
