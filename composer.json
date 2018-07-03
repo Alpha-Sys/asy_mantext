@@ -1,0 +1,20 @@
+{
+    "name": "alphasys/asy_mantext",
+    "description": "OXID module: Additional description for manufacturer.",
+    "type": "oxideshop-module",
+    "keywords": ["oxid", "modules", "eShop", "manufacturer", "description"],
+    "homepage": "https://www.alpha-sys.de",
+    "version": "2.0.0",
+    "extra": {
+        "oxideshop": {
+            "target-directory": "asy/asy_mantext"
+        }
+    },
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "AlphaSys\\AsyManText\\": "../../../source/modules/asy/asy_mantext"
+        }
+    }
+}
