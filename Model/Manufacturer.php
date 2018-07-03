@@ -9,7 +9,7 @@
  * @author      Fabian Kunkler <fabian.kunkler@alpha-sys.de>
  * @copyright   (C) Alpha-Sys 2008-2018
  * @module      asy_mantext
- * @version     03.07.2018 2.0.1
+ * @version     03.07.2018 2.0.2
  */
 
 namespace AlphaSys\AsyManText\Model;
@@ -25,12 +25,12 @@ class Manufacturer extends Manufacturer_parent{
      *
      * @return null
      */
-    protected function _setFieldData( $sFieldName, $sValue, $iDataType = oxField::T_TEXT)
+    protected function _setFieldData($sFieldName, $sValue, $iDataType = \OxidEsales\Eshop\Core\Field::T_TEXT)
     {
         //preliminar quick check saves 3% of execution time in category lists by avoiding redundant strtolower() call
         if ($sFieldName[2] == 'l' || $sFieldName[2] == 'L' || (isset($sFieldName[16]) && ($sFieldName[16] == 'l' || $sFieldName[16] == 'L') ) ) {
             if ('asy_longdesc' === strtolower($sFieldName) || 'oxmanufacturers__asy_longdesc' === strtolower($sFieldName)) {
-                $iDataType = oxField::T_RAW;
+                $iDataType = \OxidEsales\Eshop\Core\Field::T_RAW;
             }
         }
         return parent::_setFieldData($sFieldName, $sValue, $iDataType);

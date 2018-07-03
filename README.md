@@ -2,7 +2,7 @@
 asy_mantext
 
 ### Version ###
-2.0.1
+2.0.2
 
 ### Oxid-Version ###
 6.0.x
