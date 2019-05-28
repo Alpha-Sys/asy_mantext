@@ -7,10 +7,12 @@
  *
  * @link        http://www.alpha-sys.de
  * @author      Fabian Kunkler <fabian.kunkler@alpha-sys.de>
- * @copyright   (C) Alpha-Sys 2008-2018
+ * @copyright   (C) Alpha-Sys 2008-2019
  * @module      asy_mantext
- * @version     03.07.2018 2.0.2
+ * @version     2.0.3
  */
+
+namespace AlphaSys\AsyManText\Controller;
 
 class ManufacturerListController extends ManufacturerListController_parent {
 
