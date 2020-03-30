@@ -4,7 +4,7 @@
     "type": "oxideshop-module",
     "keywords": ["oxid", "modules", "eShop", "manufacturer", "description"],
     "homepage": "https://www.alpha-sys.de",
-    "version": "2.0.3",
+    "version": "2.0.4",
     "extra": {
         "oxideshop": {
             "target-directory": "asy/asy_mantext"

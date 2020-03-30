@@ -7,9 +7,9 @@
  *
  * @link        http://www.alpha-sys.de
  * @author      Fabian Kunkler <fabian.kunkler@alpha-sys.de>
- * @copyright   (C) Alpha-Sys 2008-2019
+ * @copyright   (C) Alpha-Sys 2008-2020
  * @module      asy_mantext
- * @version     2.0.3
+ * @version     2.0.4
  */
 
 namespace AlphaSys\AsyManText\Model;
