@@ -2,10 +2,10 @@
 asy_mantext
 
 ### Version ###
-2.0.4
+2.0.5
 
 ### Oxid-Version ###
-6.1.x
+6.0.x - 6.2.x
 
 ### Author ###
 Alpha-Sys
