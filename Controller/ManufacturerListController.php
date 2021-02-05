@@ -30,8 +30,8 @@ class ManufacturerListController extends ManufacturerListController_parent {
         $oManufacturer = $this->getActManufacturer();
         $sSortBy  = $oManufacturer->oxmanufacturers__asy_defsort;
         $sSortDir = ( $oManufacturer->oxmanufacturers__asy_defsortmode->value ) ? "desc" : null;
-        if($sSortBy && $sSortDir){
+        if($sSortBy){
             return "  $sSortBy $sSortDir";
         }
-    }    
+    }
 }

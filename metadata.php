@@ -15,7 +15,7 @@
 /**
  * Metadata version
  */
-$sMetadataVersion = '2.0';
+$sMetadataVersion = '2.1';
 
 /**
  * Module information
@@ -27,7 +27,7 @@ $aModule = array(
         'de' => 'Mit diesem Modul werden die Hersteller um eine Beschreibung erweitert. Desweiteren kann man eine Sortierung einstellen.'
     ),
     'thumbnail'    => 'module_logo.png',
-    'version'      => '2.0.4',
+    'version'      => '2.0.5',
     'author'       => 'Alpha-Sys',
     'email'        => 'fabian.kunkler@alpha-sys.de',
     'url'          => 'http://www.alpha-sys.de',
@@ -48,7 +48,7 @@ $aModule = array(
         'asy_mantext_main.tpl'  => 'asy/asy_mantext/views/admin/tpl/asy_mantext_main.tpl',
     ),
     'blocks' => array(
-        //array('template' => 'manufacturer_main.tpl', 'block'=>'admin_manufacturer_main_form', 'file'=>'views/blocks/admin_manufacturer_main_form.tpl', 'position' => '2'),
+        array('template' => 'manufacturer_main.tpl', 'block'=>'admin_manufacturer_main_form', 'file'=>'views/blocks/admin_manufacturer_main_form.tpl', 'position' => '2'),
      ),
     'settings' => array(
     )
