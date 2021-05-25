@@ -7,9 +7,9 @@
  *
  * @link        http://www.alpha-sys.de
  * @author      Fabian Kunkler <fabian.kunkler@alpha-sys.de>
- * @copyright   (C) Alpha-Sys 2008-2020
+ * @copyright   (C) Alpha-Sys 2008-2021
  * @module      asy_mantext
- * @version     2.0.4
+ * @version     2.0.6
  */
 
 namespace AlphaSys\AsyManText\Controller\Admin;
